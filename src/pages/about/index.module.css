@@ -1,5 +1,5 @@
 .section{
-    padding: 2rem 0 4rem;
+    padding: 1rem 0 ;
 }
 .about__container {
     grid-template-columns: repeat(2,1fr);
@@ -16,8 +16,9 @@
 
 }
 .about__info{
-    grid-template-columns: repeat(3, 140px);
-    gap: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
     margin-bottom: var(--mb-2);
 
 }
@@ -31,37 +32,32 @@
 }
 .about__icon{
     font-size: 1.5rem;
-    color: var(--title-color);
+    color: var(--wine-color);
     margin-bottom: var(--mb-0-5);
 }
 
 .about__title{
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
 }
 
 .about__subtitle{
-    font-size: var(--tiny-font-size);
+    font-size: var(--smaller-font-size);
 }
 
-.about__description{
-    font-size: var(--tiny-font-size);
-    font-weight: var(--font-medium);
-    padding: 0 4rem 0 0;
-    margin-bottom: var(--mb-2-5);
+.cvButton {
+    margin-top: 1rem;
+}
+.section__title{
+    text-align: center;
+    font-size: 2.25rem;
+    margin-bottom: var(--mb-0-25);
+    white-space: nowrap;
 }
 
-/*================== BREAKPOINTS ==================*/
-/* For Large device */
 
-@media screen and (max-width: 992px){
-    .about__container{
-        grid-template-columns: 1fr;
-        row-gap: 2.5rem;
-    }
-    .about__img{
-        width: 220px;
-    }
+@media screen and (max-width: 768px){
+
     .about__box{
         padding: 0.75rem 0.5rem;
     }
@@ -70,25 +66,26 @@
     }
     .about__info{
         justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 0.5rem;
+    }
+    .section__title {
+        font-size: 1.5rem;
+        padding-top: 1rem;
     }
     .about__description{
-        padding: 0.5rem;
-        margin-bottom: 2rem;
-    }
-}
-/* For Medium device */
-@media screen and (max-width: 576px){
-    .about__info{
-        grid-template-columns: repeat(3,1fr);
-    }
-    .about__description{
-        padding: 0;
+        font-size: var(--normal-font-size);
     }
 
-}/* For Small device */
-@media screen and (max-width: 350px){
-    .about__info{
-        grid-template-columns: repeat(2,1fr);
+    .about__description, .section__title {
+        text-align: center;
+        white-space: normal;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        padding: 0 1rem;
+        max-width: 100%;
+        box-sizing: border-box;
     }
 
 }

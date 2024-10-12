@@ -99,7 +99,7 @@ img{
 }
 .section__subtitle{
   display: block;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   color: var(--wine-color);
   font-size: var(--h3-font-size);
 }
