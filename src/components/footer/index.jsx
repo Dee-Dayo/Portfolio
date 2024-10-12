@@ -4,21 +4,6 @@ const Footer = () => {
     return (
        <footer className={styles.footer}>
            <div className={styles.footer__container}>
-               <ul className={styles.footer__list}>
-                   <li>
-                       <a href="#about" className={styles.footer__link}>About</a>
-                   </li>
-                   <li>
-                       <a href="#skills" className={styles.footer__link}>Skills</a>
-                   </li>
-                   <li>
-                       <a href="#projects" className={styles.footer__link}>Projects</a>
-                   </li>
-                   <li>
-                       <a href="#qualifications" className={styles.footer__link}>Qualifications</a>
-                   </li>
-
-               </ul>
 
                <div className={styles.footer__social}>
                    <a href="https://www.linkedin.com/in/akindayo-akinyemi-3b3685248/" className={styles.footer__social_link}
