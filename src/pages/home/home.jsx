@@ -5,8 +5,7 @@ import Data from "./data";
 
 const Home = () => {
     return (
-        <section id="home">
-            <div className={`${styles.home__container} container grid`}>
+            <div className={styles.home__container}>
                 <div className={`${styles.home__content} grid`}>
                     <Social />
                     <div className={styles.home__img}></div>
@@ -21,9 +20,6 @@ const Home = () => {
                 {/*<Testimonials/>*/}
                 {/*<Contact/>*/}
             </div>
-
-        </section>
-
     );
 }
 

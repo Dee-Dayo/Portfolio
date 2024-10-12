@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from './index.module.css';
-import Hamburger from 'hamburger-react'; // Import Hamburger
+import Hamburger from 'hamburger-react';
 
 const Navbar = () => {
     useEffect(() => {
@@ -36,18 +36,26 @@ const Navbar = () => {
                                     className={`${styles.nav__link} ${activeNav === `#${section}` ? styles.active_link : ''}`}
                                     onClick={() => {
                                         setActiveNav(`#${section}`);
-                                        setToggle(false); // Close menu after selecting an option
+                                        setToggle(false);
                                     }}
                                 >
-                                    <i className={`uil uil-${section === 'home' ? 'estate' : section} ${styles.nav__icon}`}></i> {section.charAt(0).toUpperCase() + section.slice(1)}
+                                    <i className={`uil uil-${section === 'home' ? 'estate' : section} ${styles.nav__icon}`}></i>
+                                    {section.charAt(0).toUpperCase() + section.slice(1)}
                                 </a>
                             </li>
                         ))}
                     </ul>
                     <i className={`uil uil-times ${styles.nav__close}`} onClick={() => setToggle(false)}></i>
                 </div>
-                <div className={styles.nav__toggle} onClick={() => setToggle(!toggle)}>
-                    <Hamburger toggled={toggle} toggle={setToggle} color="#ed2b27" /> {/* Updated color */}
+                <div className={styles.nav__toggle}>
+                    <button
+                        aria-expanded={toggle}
+                        aria-label="Toggle navigation"
+                        onClick={() => setToggle(!toggle)}
+                        className={styles.hamburger__button}
+                    >
+                        <Hamburger toggled={toggle} toggle={setToggle} color="#ed2b27" />
+                    </button>
                 </div>
             </nav>
         </header>

@@ -47,7 +47,7 @@
 
 .active_link,
 .nav__link:hover {
-    color: black;
+    color: #8B0000;
 }
 
 .scrollHeader {
@@ -73,16 +73,16 @@
         left: 0;
         width: 100%;
         background-color: var(--body-color);
-        padding: 2rem 1.5rem 4rem;
+        padding: 1.5rem 1rem 3rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 0 0 1.5rem 1.5rem; /* Adjusted border radius for top menu */
+        border-radius: 0 0 1.5rem 1.5rem;
         transition: .3s;
-        display: none; /* Initially hidden */
-        z-index: 9; /* Ensure it stays under the header */
+        display: none;
+        z-index: 9;
     }
 
     .show_menu {
-        display: block; /* Show when the menu is active */
+        display: block;
     }
 
     .nav__list {
@@ -98,13 +98,14 @@
     .nav__close {
         position: absolute;
         right: 1.3rem;
-        top: 1rem; /* Adjusted position for the close button */
-        font-size: 1.5rem;
+        top: 1rem;
+        font-size: 2rem;
+        color: #ed2b27;
         cursor: pointer;
     }
 
     .nav__toggle {
-        display: block; /* Ensure it displays */
+        display: block;
         font-size: 1.5rem;
         cursor: pointer;
     }
@@ -114,5 +115,8 @@
     .nav__toggle {
         display: block;
     }
+}
 
+html {
+    scroll-behavior: smooth;
 }

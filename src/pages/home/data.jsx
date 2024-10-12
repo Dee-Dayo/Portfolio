@@ -4,7 +4,7 @@ import styles from "./index.module.css";
 const Data = () => {
 
     return (
-        <div className={styles.home__data}>
+        <div>
             <h1 className={styles.home__title}>Akindayo Akinyemi</h1>
             <h3 className={styles.home__subtitle}> Software Engineer </h3>
             <p className={styles.home__description}>I'm a versatile software engineer based in Lagos,
