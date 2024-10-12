@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./index.module.css";
 import Social from "./social";
 import Data from "./data";
+import About from "../about/about";
 
 const Home = () => {
     return (
@@ -12,8 +13,7 @@ const Home = () => {
                     <Data />
                 </div>
 
-                {/* Render the About component */}
-                {/*<About />*/}
+                <About/>
                 {/*<Skills/>*/}
                 {/*<Projects/>*/}
                 {/*<Qualification/>*/}

@@ -99,8 +99,9 @@ img{
 }
 .section__subtitle{
   display: block;
-  font-size: var(--small-font-size);
   margin-bottom: 4rem;
+  color: var(--wine-color);
+  font-size: var(--h3-font-size);
 }
 
 .section__title,
@@ -145,4 +146,3 @@ img{
   display: inline-flex;
   align-items: center;
 }
-
