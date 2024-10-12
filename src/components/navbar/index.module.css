@@ -5,6 +5,7 @@
     left: 0;
     background-color: var(--body-color);
     padding: 0 1rem;
+    z-index: 10;
 }
 
 .nav {
@@ -20,7 +21,7 @@
 .nav__logo,
 .nav__toggle {
     color: black;
-    font-weight: var(--font-medium);
+    font-weight: var(--font-semi-bold);
     margin: 0;
 }
 
@@ -55,28 +56,33 @@
 
 @media screen and (max-width: 768px) {
     .header {
-        top: initial;
-        bottom: 0;
+        top: 0;
+        bottom: initial;
+        margin: 0;
     }
 
     .nav {
         height: var(--header-height);
+        justify-content: space-between;
+        padding: 0 0.5rem;
     }
 
     .nav__menu {
         position: fixed;
-        bottom: -100%;
+        top: 0;
         left: 0;
         width: 100%;
         background-color: var(--body-color);
         padding: 2rem 1.5rem 4rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 1.5rem 1.5rem 0 0;
+        border-radius: 0 0 1.5rem 1.5rem; /* Adjusted border radius for top menu */
         transition: .3s;
+        display: none; /* Initially hidden */
+        z-index: 9; /* Ensure it stays under the header */
     }
 
     .show_menu {
-        bottom: 0;
+        display: block; /* Show when the menu is active */
     }
 
     .nav__list {
@@ -92,14 +98,13 @@
     .nav__close {
         position: absolute;
         right: 1.3rem;
-        bottom: .5rem;
+        top: 1rem; /* Adjusted position for the close button */
         font-size: 1.5rem;
         cursor: pointer;
-        color: var(--title-color);
     }
 
     .nav__toggle {
-        display: block;
+        display: block; /* Ensure it displays */
         font-size: 1.5rem;
         cursor: pointer;
     }

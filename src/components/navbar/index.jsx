@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from './index.module.css';
+import Hamburger from 'hamburger-react'; // Import Hamburger
 
 const Navbar = () => {
     useEffect(() => {
@@ -46,7 +47,7 @@ const Navbar = () => {
                     <i className={`uil uil-times ${styles.nav__close}`} onClick={() => setToggle(false)}></i>
                 </div>
                 <div className={styles.nav__toggle} onClick={() => setToggle(!toggle)}>
-                    <i className="uil uil-apps"></i>
+                    <Hamburger toggled={toggle} toggle={setToggle} color="#ed2b27" /> {/* Updated color */}
                 </div>
             </nav>
         </header>
