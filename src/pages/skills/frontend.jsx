@@ -4,7 +4,7 @@ import styles from "./index.module.css"
 const Frontend = () => {
     return (
         <div className={styles.skills__content}>
-            <h3 className={styles.skills__title}>Frontend Developer</h3>
+            <h3 className={styles.skills__title}>Frontend Engineer</h3>
 
             <div className={styles.skills__box}>
                 <div className={styles.skills__group}>

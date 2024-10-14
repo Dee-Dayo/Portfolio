@@ -52,93 +52,64 @@ const Projects = () => {
 
     const serviceData = [
         {
-            title: "Frontend Engineer",
-            description: "Specializing in intuitive, user-friendly interfaces with modern JavaScript frameworks, I build fast, responsive, and accessible web applications optimized for performance.",
-            icon: "uil-web-grid",
+            title: "Frontend Projects",
+            description: "I create user-friendly, responsive web pages using modern JavaScript frameworks like React, " +
+                "as well as basic HTML and CSS. With a strong background in building dynamic web applications, I leverage " +
+                "technologies like React, TypeScript, JavaScript, Tailwind, and have extensive experience in API integration " +
+                "using Axios. My work is optimized for performance and accessibility, ensuring seamless experiences across " +
+                "mobile devices.",
+            icon: "uil-browser",
             projects: [
                 {
-                    projectName: "Contact Management Website",
-                    githubLink: "https://contact-managment-app-using-react.vercel.app/"
+                    projectName: "Dee Logistics System Website",
+                    githubLink: "https://deelogistics-dee-dayos-projects.vercel.app/"
                 },
                 {
-                    projectName: "Login/SignUp Website",
-                    githubLink: "https://login-page-ten-kappa.vercel.app/"
-                },
-                {
-                    projectName: "Next-Cent App Design",
-                    githubLink: "https://react-next-cent-fiuzb7rtr-abolaji-s-projects.vercel.app/"
-                },
-                {
-                    projectName: "Connectivity Website",
-                    githubLink: "https://multilconnect-front-end.vercel.app/"
-                },
-                {
-                    projectName: "BeeJhay Gadget App",
-                    githubLink: "https://bee-jhay-gadget-n77vawvzu-abolaji-s-projects.vercel.app/"
-                },
-                {
-                    projectName: "Portfolio Website",
-                    githubLink: "https://my-portfolio-phi-drab-12.vercel.app/"
-                },
-                {
-                    projectName: "Book Collection Website",
-                    githubLink: "https://bookcollections.vercel.app/"
-                },
+                    projectName: "Nexcent Landing page",
+                    githubLink: "https://nexcent-pied.vercel.app/"
+                }
             ]
         },
         {
-            title: "Backend Engineer",
-            description: "Experienced in building scalable and efficient backend systems, " +
-                "ensuring performance and security using Java, Python and JavaScript.",
-            icon: "uil-server-network",
+            title: "Live Fullstack Projects (Deployed)",
+            description: "Built scalable and efficient fullstack systems using Java Spring Boot for the backend and " +
+                "databases like PostgreSQL or MySQL. These projects follow TDD (Test-Driven Development) principles, " +
+                "utilize GitHub Actions for CI/CD, and are deployed on platforms such as Render or AWS for the backend. ",
+            icon: "uil-layers",
             projects: [
                 {
-                    projectName: "Movie Hub REST API",
-                    githubLink: "https://github.com/Abolaji2K21/Movie_Hub"
-                },
-                {
-                    projectName: "ServiceMatch API",
-                    githubLink: "https://github.com/MultiConnectWeb/MultiConnect"
-                },
-                {
-                    projectName: "Contact Management API",
-                    githubLink: "https://github.com/Abolaji2K21/Cloned_Contact_App_For_Practice"
-                },
-                {
-                    projectName: "Blog Hub REST API",
-                    githubLink: "https://github.com/Abolaji2K21/Modern_Blog"
-                },
-                {
-                    projectName: "Productivity Toolbox API ",
-                    githubLink: "https://github.com/Abolaji2K21/Java_Script_Gate/"
-                },
-
+                    projectName: "EaziRent",
+                    githubLink: "https://eazi-rent-eight.vercel.app/"
+                }
             ]
         },
         {
-            title: "Algorithm Developer",
-            description: "Proficient in algorithm design and problem-solving, optimizing solutions for complex computational problems.",
-            icon: "uil-brain",
+            title: "Backend Projects (GitHub Repos)",
+            description: "Experienced in building scalable and efficient backend systems using technologies such as " +
+                "Java (Spring Boot) and Python (Django). These projects include both robust backend applications and " +
+                "data structure/algorithm implementations written in Java and JavaScript, ensuring performance, security, " +
+                "and optimal problem-solving capabilities.",
+            icon: "uil-database",
             projects: [
                 {
-                    projectName: "Archery Game Algorithm",
-                    githubLink: "https://github.com/Abolaji2K21/taskForFirstGate-/tree/main/src/ArcheryGame"
+                    projectName: "Election Management System (Springboot)",
+                    githubLink: "https://github.com/Dee-Dayo/Election-Management-System"
                 },
                 {
-                    projectName: "Logistic Workflow Algorithm",
-                    githubLink: "https://github.com/Abolaji2K21/taskForFirstGate-/tree/main/src/Back_To_Sender"
+                    projectName: "Auction System (Django)",
+                    githubLink: "https://github.com/Dee-Dayo/Django-Auction-System"
                 },
                 {
-                    projectName: "Tic Tac Toe Game Algorithm",
-                    githubLink: "https://github.com/Abolaji2K21/taskForFirstGate-/tree/main/src/Tic_Tac_Toe"
+                    projectName: "Data Structure & Algorithms (Java)",
+                    githubLink: "https://github.com/Dee-Dayo/Semicolon-Drills"
                 },
                 {
-                    projectName: "TurtleGraphics Algorithm",
-                    githubLink: "https://github.com/Abolaji2K21/taskForFirstGate-/tree/main/src/TurtleGraphics"
+                    projectName: "Data Structure & Algorithms (Python)",
+                    githubLink: "https://github.com/Dee-Dayo/Semicolon-Python-Drills"
                 },
                 {
-                    projectName: "SevenSegment Algorithm",
-                    githubLink: "https://github.com/Abolaji2K21/taskForFirstGate-/tree/main/src/SevenSegmentDisplay"
+                    projectName: "Data Structure & Algorithms (JavaScript)",
+                    githubLink: "https://github.com/Dee-Dayo/Javascript-Semicolon"
                 },
             ]
         }

@@ -30,6 +30,24 @@ const Technologies = () => {
                         <i className={`bx bx-badge-check ${styles.icon}`}></i>
 
                         <div>
+                            <h3 className={styles.skills__name}>PostgreSQL</h3>
+                        </div>
+                    </div>
+
+                    <div className={styles.skills__data}>
+                        <i className={`bx bx-badge-check ${styles.icon}`}></i>
+
+                        <div>
+                            <h3 className={styles.skills__name}>MySQL</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={styles.skills__group}>
+                    <div className={styles.skills__data}>
+                        <i className={`bx bx-badge-check ${styles.icon}`}></i>
+
+                        <div>
                             <h3 className={styles.skills__name}>Django</h3>
                         </div>
                     </div>
@@ -73,6 +91,22 @@ const Technologies = () => {
 
                         <div>
                             <h3 className={styles.skills__name}>Redux</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.skills__group}>
+                    <div className={styles.skills__data}>
+                        <i className={`bx bx-badge-check ${styles.icon}`}></i>
+
+                        <div>
+                            <h3 className={styles.skills__name}>MongoDB</h3>
+                        </div>
+                    </div>
+                    <div className={styles.skills__data}>
+                        <i className={`bx bx-badge-check ${styles.icon}`}></i>
+
+                        <div>
+                            <h3 className={styles.skills__name}>Render</h3>
                         </div>
                     </div>
                 </div>

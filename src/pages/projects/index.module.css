@@ -183,7 +183,7 @@
 }
 
 .services__modal_content::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(0, 0, 0, 1); /* Even darker on hover */
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .services__modal_content::-webkit-scrollbar-track {
@@ -193,7 +193,6 @@
 .services__modal_content {
     scrollbar-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.1); /* For Firefox */
     scrollbar-width: thin;
-    /*cursor: pointer; !* Hand icon for scrollbar in Firefox *!*/
 
 }
 
