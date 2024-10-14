@@ -18,12 +18,12 @@ const About = () => {
                         My journey into coding began with a deep curiosity about how websites function
                         behind the scenes. With over 8 years of experience in the tech industry and 2 years
                         dedicated to coding, I have developed a passion for breaking down complex challenges
-                        and building efficient software that enhances user experience.
+                        and building efficient software that enhances user experience.<br/>
                         I thrive in team settings, valuing collaboration and the exchange of ideas. My expertise
                         spans backend engineering with Java, Python, and JavaScript (using frameworks like
                         Spring Boot, Django, and Flask), as well as frontend development with HTML, React, React Native,
                         Flutter, and Node.js. I also have experience in styling with CSS and Tailwind, and deploying
-                        projects using AWS and Docker for containerization.
+                        projects using AWS and Docker for containerization.<br/>
                         I practice test-driven development and use GitHub for version control and CI/CD with GitHub
                         Actions. Always eager to explore new ideas in software development, I am ready to tackle new
                         challenges and contribute to innovative projects.

@@ -3,6 +3,7 @@ import styles from "./index.module.css";
 import Social from "./social";
 import Data from "./data";
 import About from "../about/about";
+import Skills from "../skills/skills";
 
 const Home = () => {
     return (
@@ -13,10 +14,8 @@ const Home = () => {
                 <Data />
             </div>
 
-            <div id="about">
-                <About />
-            </div>
-            {/*<Skills/>*/}
+            <About />
+            <Skills/>
             {/*<Projects/>*/}
             {/*<Qualification/>*/}
             {/*<Testimonials/>*/}
