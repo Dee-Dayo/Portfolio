@@ -86,12 +86,10 @@
         margin-bottom: 0.5rem;
     }
 
-    /* Skills box for mobile */
     .skills__box {
-        grid-template-columns: 1fr; /* Stack items vertically for mobile */
+        grid-template-columns: 1fr;
     }
 
-    /* Adjusting the title size for mobile */
     .section__title {
         font-size: 1.5rem;
         padding-top: 1rem;

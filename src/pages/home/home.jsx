@@ -4,6 +4,7 @@ import Social from "./social";
 import Data from "./data";
 import About from "../about/about";
 import Skills from "../skills/skills";
+import Projects from "../projects/Projects";
 
 const Home = () => {
     return (
@@ -16,7 +17,7 @@ const Home = () => {
 
             <About />
             <Skills/>
-            {/*<Projects/>*/}
+            <Projects/>
             {/*<Qualification/>*/}
             {/*<Testimonials/>*/}
             {/*<Contact/>*/}
