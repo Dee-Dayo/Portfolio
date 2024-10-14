@@ -3,18 +3,18 @@ import styles from './index.module.css'
 
 const ServiceModal = ({ toggleTab, toggleState, index, title, description, projects }) => {
     return (
-        <div className={toggleState === index ? "services__modal active-modal" : "services__modal"}>
-            <div className="services__modal-content">
-                <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-                <h3 className="services__modal-title">{title}</h3>
-                <p className="services__modal-description">{description}</p>
+        <div className={toggleState === index ? `${styles.services__modal} ${styles.active_modal}` : styles.services__modal}>
+            <div className={styles.services__modal_content}>
+                <i onClick={() => toggleTab(0)} className={`uil uil-times ${styles.services__modal_close}`}></i>
+                <h3 className={styles.services__modal_title}>{title}</h3>
+                <p className={styles.services__modal_description}>{description}</p>
 
-                <h4 className="services__modal-subtitle">Projects</h4>
-                <ul className="services__modal-projects">
+                <h4>Projects</h4>
+                <ul className={styles.services__modal_projects}>
                     {projects.map((project, i) => (
-                        <li key={i} className="services__modal-project">
-                            <i className="uil uil-folder services__modal-icon"></i>
-                            <p className="services__modal-info">
+                        <li key={i} className={styles.services__modal_project}>
+                            <i className={`uil uil-folder ${styles.services__modal_icon}`}></i>
+                            <p className={styles.services__modal_info}>
                                 {project.projectName} -{" "}
                                 <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
                                     View Project

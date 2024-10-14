@@ -49,7 +49,7 @@
 }
 
 .services__button {
-    color: var(--title-color);
+    color: var(--wine-color);
     font-size: var(--small-font-size);
     display: inline-flex;
     align-items: center;
@@ -84,7 +84,7 @@
     overflow-y: auto;
 }
 
-.services__modal-content {
+.services__modal_content {
     width: 500px;
     max-height: 80vh;
     background-color: var(--container-color);
@@ -104,12 +104,12 @@
     row-gap: 0.75rem;
 }
 
-.services__modal-projects {
+.services__modal_projects {
     list-style: none;
     padding-left: 0;
 }
 
-.services__modal-project {
+.services__modal_project {
     display: flex;
     align-items: center;
     column-gap: 0.5rem;
@@ -119,46 +119,46 @@
     margin-bottom: 0.75rem;
 }
 
-.services__modal-icon {
-    color: var(--title-color);
+.services__modal_icon {
+    color: var(--wine-color);
     font-size: 1.1rem;
 }
 
-.services__modal-info {
+.services__modal_info {
     font-size: 0.9rem;
 }
 
-.services__modal-project a {
+.services__modal_project a {
     color: #000;
     text-decoration: none;
-    cursor: pointer; /* Hand icon for links */
+    cursor: pointer;
 }
 
-.services__modal-project a:hover {
+.services__modal_project a:hover {
     text-decoration: underline;
 }
 
-.services__modal-close {
+.services__modal_close {
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
     font-size: 1.5rem;
-    color: var(--title-color);
+    color: var(--wine-color);
     cursor: pointer;
 }
 
-.services__modal-title,
-.services__modal-description {
+.services__modal_title,
+.services__modal_description {
     text-align: center;
 }
 
-.services__modal-title {
+.services__modal_title {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1);
 }
 
-.services__modal-description {
+.services__modal_description {
     font-size: 0.70rem;
     padding: 0 3rem;
     margin-bottom: var(--mb-2);
@@ -166,32 +166,31 @@
 
 }
 
-.active-modal {
+.active_modal {
     opacity: 1;
     visibility: visible;
 }
 
-.services__modal-content::-webkit-scrollbar {
+.services__modal_content::-webkit-scrollbar {
     width: 8px;
-    /*cursor: pointer; !* Hand icon on hover and drag *!*/
 
 }
 
-.services__modal-content::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.8); /* Darker scrollbar thumb */
+.services__modal_content::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
-    cursor: pointer; /* Hand icon on hover and drag */
+    cursor: pointer;
 }
 
-.services__modal-content::-webkit-scrollbar-thumb:hover {
+.services__modal_content::-webkit-scrollbar-thumb:hover {
     background-color: rgba(0, 0, 0, 1); /* Even darker on hover */
 }
 
-.services__modal-content::-webkit-scrollbar-track {
+.services__modal_content::-webkit-scrollbar-track {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.services__modal-content {
+.services__modal_content {
     scrollbar-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.1); /* For Firefox */
     scrollbar-width: thin;
     /*cursor: pointer; !* Hand icon for scrollbar in Firefox *!*/
@@ -214,14 +213,14 @@
     .services__icon {
         font-size: 1.5rem;
     }
-    .services__modal-content {
+    .services__modal_content {
         padding: 4.5rem 1.5rem 2.5rem;
         width: 80%;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .services__modal-content {
+    .services__modal_content {
         width: 100%;
         padding: 4.5rem 1.5rem 2.5rem;
     }
