@@ -6,6 +6,7 @@ import About from "../about/about";
 import Skills from "../skills/skills";
 import Projects from "../projects/Projects";
 import Qualification from "../qualification/Qualification";
+import Contact from "../contact/Contact";
 
 const Home = () => {
     return (
@@ -20,8 +21,7 @@ const Home = () => {
             <Skills/>
             <Projects/>
             <Qualification/>
-            {/*<Testimonials/>*/}
-            {/*<Contact/>*/}
+            <Contact/>
         </div>
     );
 }
