@@ -5,6 +5,7 @@ import Data from "./data";
 import About from "../about/about";
 import Skills from "../skills/skills";
 import Projects from "../projects/Projects";
+import Qualification from "../qualification/Qualification";
 
 const Home = () => {
     return (
@@ -18,7 +19,7 @@ const Home = () => {
             <About />
             <Skills/>
             <Projects/>
-            {/*<Qualification/>*/}
+            <Qualification/>
             {/*<Testimonials/>*/}
             {/*<Contact/>*/}
         </div>

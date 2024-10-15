@@ -12,7 +12,7 @@ const Data = () => {
                 innovative solutions that deliver impactful and seamless digital experiences.
             </p>
 
-            <a href="#contact" className="button button--flex">
+            <a href="#contact" className="button button__flex">
                 Say Hello
                 <svg
                     className="button__icon"

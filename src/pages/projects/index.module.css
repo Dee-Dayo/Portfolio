@@ -3,29 +3,29 @@
 }
 
 .section__title {
-        font-size: 2.5rem;
-        padding-top: 1rem;
+    font-size: 2.5rem;
+    padding-top: 1rem;
 }
 
 .section__title {
-        text-align: center;
-        white-space: normal;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
-        padding: 0 1rem;
-        max-width: 100%;
-        box-sizing: border-box;
-    }
+    text-align: center;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 0 1rem;
+    max-width: 100%;
+    box-sizing: border-box;
+}
 
 .services__container {
     grid-template-columns: repeat(3, 270px);
     justify-content: center;
     column-gap: 1.8rem;
-      max-width: 968px;
-  margin-left: auto;
-  margin-right: auto;
-      display: grid;
-  gap: 1.5rem;
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    gap: 1.5rem;
 }
 
 .services__content {
@@ -173,7 +173,6 @@
 
 .services__modal_content::-webkit-scrollbar {
     width: 8px;
-
 }
 
 .services__modal_content::-webkit-scrollbar-thumb {
@@ -191,15 +190,9 @@
 }
 
 .services__modal_content {
-    scrollbar-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.1); /* For Firefox */
+    scrollbar-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.1);
     scrollbar-width: thin;
 
-}
-
-@media screen and (max-width: 992px) {
-    .services__container {
-        grid-template-columns: repeat(3, 218px);
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -215,21 +208,5 @@
     .services__modal_content {
         padding: 4.5rem 1.5rem 2.5rem;
         width: 80%;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .services__modal_content {
-        width: 100%;
-        padding: 4.5rem 1.5rem 2.5rem;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .services__container {
-        grid-template-columns: max-content;
-    }
-    .services__content {
-        padding-right: 6rem;
     }
 }

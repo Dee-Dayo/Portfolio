@@ -31,7 +31,7 @@ const About = () => {
                     </p>
 
                     <a href={CV} target="_blank" rel="noopener noreferrer"
-                       className={`button button--flex ${styles.cvButton}`}>
+                       className={`button button__flex ${styles.cvButton}`}>
                         View CV
                         <svg
                             className="button__icon"

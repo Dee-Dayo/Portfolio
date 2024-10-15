@@ -26,7 +26,6 @@ const Navbar = () => {
                                     className={`${styles.nav__link} ${activeNav === `/${section}` ? styles.active_link : ''}`}
                                     onClick={() => handleNavClick(`/${section}`)}
                                 >
-                                    <i className={`uil uil-${section === 'home' ? 'estate' : section} ${styles.nav__icon}`}></i>
                                     {section.charAt(0).toUpperCase() + section.slice(1)}
                                 </Link>
                             </li>
