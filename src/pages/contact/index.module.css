@@ -100,12 +100,12 @@
     max-width: 400px;
 }
 
-.contact__form-div {
+.contact__form_div {
     margin-bottom: 1.5rem;
     position: relative;
 }
 
-.contact__form-input {
+.contact__form_input {
     width: 100%;
     height: 100%;
     padding: 1.5rem;
@@ -117,14 +117,14 @@
     /*z-index: 1;*/
 }
 
-.contact__form-area {
+.contact__form_area {
     height: 11rem;
 }
-.contact__form-area textarea{
+.contact__form_area textarea{
     resize: none;
 }
 
-.contact__form-tag {
+.contact__form_tag {
     position: absolute;
     top: -0.75rem;
     left: 1.25rem;
@@ -155,13 +155,7 @@
 }
 
 
-.modal__close-icon {
-    /*position: absolute;*/
-    /*top: 10px;*/
-    /*right: 10px;*/
-    /*cursor: pointer;*/
-    /*font-size: 24px; !* Adjust as necessary *!*/
-    /*color: #333; !* Adjust color *!*/
+.modal__close_icon {
     position: absolute;
     top: 0.1rem;
     right: 0.5rem;
@@ -170,6 +164,16 @@
     cursor: pointer;
 
 }
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 
 @media screen and (max-width: 992px) {
     .contact__container {
@@ -214,7 +218,7 @@
         font-size: 0.875rem;
     }
 
-    .button--flex {
-        padding: 0.5rem 1rem; /* Smaller padding for smaller screens */
+    .button__flex {
+        padding: 0.5rem 1rem;
     }
 }

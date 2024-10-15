@@ -7,15 +7,15 @@ const Contact = () => {
     const [isLoading, setIsLoading] = useState(false);
 
     const Modal = ({ message, onClose }) => {
-        return (
-            <div className={styles.modal}>
-                <div className="modal__content">
-                    <i onClick={onClose} className="uil uil-times modal__close-icon"></i>
-                    <p>{message}</p>
-                </div>
+    return (
+        <div className={styles.modal}>
+            <div className={styles.modal__content}>
+                <i onClick={onClose} className={`uil uil-times ${styles.modal__close_icon}`}></i>
+                <p>{message}</p>
             </div>
-        );
-    };
+        </div>
+    );
+};
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -73,24 +73,24 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className="contact__content">
-                    <h3 className="contact__title">Write me your project</h3>
-                    <form className="contact__form" onSubmit={handleSubmit}>
-                        <div className="contact__form-div">
-                            <label className="contact__form-tag">Name</label>
-                            <input type="text" name="name" className="contact__form-input"
+                <div>
+                    <h3 className={styles.contact__title}>Write me your project</h3>
+                    <form className={styles.contact__form} onSubmit={handleSubmit}>
+                        <div className={styles.contact__form_div}>
+                            <label className={styles.contact__form_tag}>Name</label>
+                            <input type="text" name="name" className={styles.contact__form_input}
                                    placeholder="Insert your name sir/ma" required />
                         </div>
-                        <div className="contact__form-div">
-                            <label className="contact__form-tag">Mail</label>
-                            <input type="email" name="email" className="contact__form-input"
+                        <div className={styles.contact__form_div}>
+                            <label className={styles.contact__form_tag}>Mail</label>
+                            <input type="email" name="email" className={styles.contact__form_input}
                                    placeholder="Insert your email sir/ma" required />
                         </div>
-                        <div className="contact__form-div contact__form-area">
-                            <label className="contact__form-tag">Message</label>
-                            <textarea name="message" className="contact__form-input" placeholder="Write your message" required></textarea>
+                        <div className={`${styles.contact__form_div} ${styles.contact__form_area}`}>
+                            <label className={styles.contact__form_tag}>Message</label>
+                            <textarea name="message" className={styles.contact__form_input} placeholder="Write your message" required></textarea>
                         </div>
-                        <button className="button button--flex" type="submit" disabled={isLoading}>
+                        <button className={`button ${styles.button__flex}`} type="submit" disabled={isLoading}>
                             {isLoading ? (
                                 <svg className="animate-spin h-5 w-5 mr-3" viewBox="0 0 24 24">
                                     <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
