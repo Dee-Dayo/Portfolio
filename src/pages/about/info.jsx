@@ -7,7 +7,7 @@ const Info = () => {
             <div className={styles.about__box}>
                 <i className={`bx bx-award ${styles.about__icon}`}></i>
                 <h3 className={styles.about__title}>Technical Experience</h3>
-                <span className={styles.about__subtitle}>8 years of experience</span>
+                <span className={styles.about__subtitle}>10 years of experience</span>
             </div>
 
             <div className={styles.about__box}>
@@ -19,7 +19,7 @@ const Info = () => {
             <div className={styles.about__box}>
                 <i className={`bx bx-briefcase-alt ${styles.about__icon}`}></i>
                 <h3 className={styles.about__title}>Projects</h3>
-                <span className={styles.about__subtitle}>Over 10+ Completed Projects</span>
+                <span className={styles.about__subtitle}>Over 8+ Completed Projects</span>
             </div>
 
             <div className={styles.about__box}>

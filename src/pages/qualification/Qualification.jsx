@@ -51,7 +51,7 @@ const Qualification = () => {
                                     <h3 className={styles.qualification__title}>Advance Diploma - Desktop Publishing</h3>
                                     <span className={styles.qualification__subtitle}>Fablo Computer College, Lagos</span>
                                     <div className={styles.qualification__calendar}>
-                                        <i className="uil-calendar-alt"></i> 2008 - 2009
+                                        <i className="uil-calendar-alt"></i> 2010 - 2011
                                     </div>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@ const Qualification = () => {
                                     <h3 className={styles.qualification__title}>Computer Tutor</h3>
                                     <span className={styles.qualification__subtitle}>Fablo Computer College, Lagos</span>
                                     <div className={styles.qualification__calendar}>
-                                        <i className="uil-calendar-alt"></i> June 2011 - Dec. 2014
+                                        <i className="uil-calendar-alt"></i> June 2012 - Dec. 2014
                                     </div>
                                 </div>
                             </div>
