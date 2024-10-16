@@ -50,7 +50,6 @@
 
 .qualification__content {
   position: relative;
-  margin-bottom: 0rem;
 }
 
 .qualification__data {
@@ -135,10 +134,6 @@
 
   .qualification__columns {
     grid-template-columns: 1fr;
-  }
-
-  .qualification__content {
-    margin-bottom: 2rem;
   }
 
   .qualification__content:first-child {
