@@ -100,15 +100,15 @@ const Projects = () => {
                     githubLink: "https://github.com/Dee-Dayo/Django-Auction-System"
                 },
                 {
-                    projectName: "Data Structure & Algorithms (Java)",
+                    projectName: "Data Structures & Algorithms (Java)",
                     githubLink: "https://github.com/Dee-Dayo/Semicolon-Drills"
                 },
                 {
-                    projectName: "Data Structure & Algorithms (Python)",
+                    projectName: "Data Structures & Algorithms (Python)",
                     githubLink: "https://github.com/Dee-Dayo/Semicolon-Python-Drills"
                 },
                 {
-                    projectName: "Data Structure & Algorithms (JavaScript)",
+                    projectName: "Data Structures & Algorithms (JavaScript)",
                     githubLink: "https://github.com/Dee-Dayo/Javascript-Semicolon"
                 },
             ]
