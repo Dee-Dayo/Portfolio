@@ -13,7 +13,7 @@ const Info = () => {
             <div className={styles.about__box}>
                 <i className={`bx bx-code-alt ${styles.about__icon}`}></i>
                 <h3 className={styles.about__title}>Coding Experience</h3>
-                <span className={styles.about__subtitle}>2 Year of Hands-on Training</span>
+                <span className={styles.about__subtitle}>3 Year of Hands-on Training</span>
             </div>
 
             <div className={styles.about__box}>
