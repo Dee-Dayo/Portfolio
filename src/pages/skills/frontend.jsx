@@ -30,7 +30,7 @@ const Frontend = () => {
                         <i className={`bx bx-badge-check ${styles.icon}`}></i>
 
                         <div>
-                            <h3 className={styles.skills__name}>React</h3>
+                            <h3 className={styles.skills__name}>ReactJs</h3>
                         </div>
                     </div>
 
@@ -49,6 +49,24 @@ const Frontend = () => {
 
                         <div>
                             <h3 className={styles.skills__name}>HTML & CSS</h3>
+                        </div>
+                    </div>
+
+                    <div className={styles.skills__data}>
+                        <i className={`bx bx-badge-check ${styles.icon}`}></i>
+
+                        <div>
+                            <h3 className={styles.skills__name}>TypeScript</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={styles.skills__group}>
+                    <div className={styles.skills__data}>
+                        <i className={`bx bx-badge-check ${styles.icon}`}></i>
+
+                        <div>
+                            <h3 className={styles.skills__name}>NextJs</h3>
                         </div>
                     </div>
 
