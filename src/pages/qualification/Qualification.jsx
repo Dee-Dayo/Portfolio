@@ -66,6 +66,16 @@ const Qualification = () => {
                         <div className={styles.qualification__box}>
                             <div className={styles.qualification__data}>
                                 <div>
+                                    <h3 className={styles.qualification__title}>Fullstack Engineer</h3>
+                                    <span className={styles.qualification__subtitle}>Oj Santos / Law & Visas</span>
+                                    <div className={styles.qualification__calendar}>
+                                        <i className="uil-calendar-alt"></i> Nov. 2024 - till date
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className={styles.qualification__data}>
+                                <div>
                                     <h3 className={styles.qualification__title}>Software Engineer (Intern)</h3>
                                     <span className={styles.qualification__subtitle}>Semicolon Africa, Lagos</span>
                                     <div className={styles.qualification__calendar}>
@@ -107,7 +117,8 @@ const Qualification = () => {
                             <div className={styles.qualification__data}>
                                 <div>
                                     <h3 className={styles.qualification__title}>Computer Tutor</h3>
-                                    <span className={styles.qualification__subtitle}>Fablo Computer College, Lagos</span>
+                                    <span
+                                        className={styles.qualification__subtitle}>Fablo Computer College, Lagos</span>
                                     <div className={styles.qualification__calendar}>
                                         <i className="uil-calendar-alt"></i> June 2012 - Dec. 2014
                                     </div>

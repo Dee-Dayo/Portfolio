@@ -20,7 +20,7 @@ const Frontend = () => {
                         <i className={`bx bx-badge-check ${styles.icon}`}></i>
 
                         <div>
-                            <h3 className={styles.skills__name}>React Native</h3>
+                            <h3 className={styles.skills__name}>NextJs</h3>
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ const Frontend = () => {
                         <i className={`bx bx-badge-check ${styles.icon}`}></i>
 
                         <div>
-                            <h3 className={styles.skills__name}>Tailwind</h3>
+                            <h3 className={styles.skills__name}>Tailwind CSS</h3>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ const Frontend = () => {
                         <i className={`bx bx-badge-check ${styles.icon}`}></i>
 
                         <div>
-                            <h3 className={styles.skills__name}>HTML & CSS</h3>
+                            <h3 className={styles.skills__name}>HTML</h3>
                         </div>
                     </div>
 
@@ -66,7 +66,7 @@ const Frontend = () => {
                         <i className={`bx bx-badge-check ${styles.icon}`}></i>
 
                         <div>
-                            <h3 className={styles.skills__name}>NextJs</h3>
+                            <h3 className={styles.skills__name}>CSS</h3>
                         </div>
                     </div>
 
@@ -74,7 +74,7 @@ const Frontend = () => {
                         <i className={`bx bx-badge-check ${styles.icon}`}></i>
 
                         <div>
-                            <h3 className={styles.skills__name}>TypeScript</h3>
+                            <h3 className={styles.skills__name}>Vite</h3>
                         </div>
                     </div>
                 </div>

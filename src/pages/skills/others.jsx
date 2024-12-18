@@ -20,7 +20,7 @@ const Technologies = () => {
                         <i className={`bx bx-badge-check ${styles.icon}`}></i>
 
                         <div>
-                            <h3 className={styles.skills__name}>J Unit Testing</h3>
+                            <h3 className={styles.skills__name}>Test Driven Development (TDD)</h3>
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ const Technologies = () => {
                         <i className={`bx bx-badge-check ${styles.icon}`}></i>
 
                         <div>
-                            <h3 className={styles.skills__name}>GitHub Actions</h3>
+                            <h3 className={styles.skills__name}>Git & GitHub Actions</h3>
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@ const Technologies = () => {
                         <i className={`bx bx-badge-check ${styles.icon}`}></i>
 
                         <div>
-                            <h3 className={styles.skills__name}>Py Test</h3>
+                            <h3 className={styles.skills__name}>Rest API</h3>
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@ const Technologies = () => {
                         <i className={`bx bx-badge-check ${styles.icon}`}></i>
 
                         <div>
-                            <h3 className={styles.skills__name}>AWS</h3>
+                            <h3 className={styles.skills__name}>Maven</h3>
                         </div>
                     </div>
                     <div className={styles.skills__data}>
@@ -99,7 +99,7 @@ const Technologies = () => {
                         <i className={`bx bx-badge-check ${styles.icon}`}></i>
 
                         <div>
-                            <h3 className={styles.skills__name}>MongoDB</h3>
+                            <h3 className={styles.skills__name}>CI/CD</h3>
                         </div>
                     </div>
                     <div className={styles.skills__data}>
