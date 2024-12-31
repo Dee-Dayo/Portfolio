@@ -38,8 +38,22 @@ const Qualification = () => {
 
                             <div className={styles.qualification__data}>
                                 <div>
-                                    <h3 className={styles.qualification__title}>National Diploma (ND) - Computer Science</h3>
-                                    <span className={styles.qualification__subtitle}>Yaba College of Technology, Lagos</span>
+                                    <h3 className={styles.qualification__title}>Higher National Diploma (HND) in view - Computer
+                                        Science</h3>
+                                    <span
+                                        className={styles.qualification__subtitle}>Yaba College of Technology, Lagos</span>
+                                    <div className={styles.qualification__calendar}>
+                                        <i className="uil-calendar-alt"></i> 2023 - till date
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className={styles.qualification__data}>
+                                <div>
+                                    <h3 className={styles.qualification__title}>National Diploma (ND) - Computer
+                                        Science</h3>
+                                    <span
+                                        className={styles.qualification__subtitle}>Yaba College of Technology, Lagos</span>
                                     <div className={styles.qualification__calendar}>
                                         <i className="uil-calendar-alt"></i> 2016 - 2019
                                     </div>
@@ -48,8 +62,10 @@ const Qualification = () => {
 
                             <div className={styles.qualification__data}>
                                 <div>
-                                    <h3 className={styles.qualification__title}>Advance Diploma - Desktop Publishing</h3>
-                                    <span className={styles.qualification__subtitle}>Fablo Computer College, Lagos</span>
+                                    <h3 className={styles.qualification__title}>Advance Diploma - Desktop
+                                        Publishing</h3>
+                                    <span
+                                        className={styles.qualification__subtitle}>Fablo Computer College, Lagos</span>
                                     <div className={styles.qualification__calendar}>
                                         <i className="uil-calendar-alt"></i> 2010 - 2011
                                     </div>
@@ -76,10 +92,20 @@ const Qualification = () => {
 
                             <div className={styles.qualification__data}>
                                 <div>
-                                    <h3 className={styles.qualification__title}>Software Engineer (Intern)</h3>
-                                    <span className={styles.qualification__subtitle}>Semicolon Africa, Lagos</span>
+                                    <h3 className={styles.qualification__title}>Frontend Developer (Intern)</h3>
+                                    <span className={styles.qualification__subtitle}>Enum, Lagos</span>
                                     <div className={styles.qualification__calendar}>
-                                        <i className="uil-calendar-alt"></i> Sep. 2024 - Present
+                                        <i className="uil-calendar-alt"></i> Aug. – Oct. 2024
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className={styles.qualification__data}>
+                                <div>
+                                    <h3 className={styles.qualification__title}>Software Engineer Trainee</h3>
+                                    <span className={styles.qualification__subtitle}>Semicolon Africa</span>
+                                    <div className={styles.qualification__calendar}>
+                                        <i className="uil-calendar-alt"></i> Sep. 2023 – Aug. 2024
                                     </div>
                                 </div>
                             </div>
@@ -96,10 +122,10 @@ const Qualification = () => {
 
                             <div className={styles.qualification__data}>
                                 <div>
-                                    <h3 className={styles.qualification__title}>IT Support Specialist (Intern)</h3>
+                                    <h3 className={styles.qualification__title}>Web Developer (Intern)</h3>
                                     <span className={styles.qualification__subtitle}>Promasidor Nigeria</span>
                                     <div className={styles.qualification__calendar}>
-                                        <i className="uil-calendar-alt"></i> Mar. 2020 - Dec 2020
+                                        <i className="uil-calendar-alt"></i> Mar. 2020 - Dec 2021
                                     </div>
                                 </div>
                             </div>

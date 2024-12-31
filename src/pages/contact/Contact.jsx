@@ -13,7 +13,7 @@ const Contact = () => {
                         <i className={`bx bx-mail-send ${styles.contact__card_icon}`}></i>
                         <h3 className={styles.contact__card_title}>Email Address</h3>
                         <span className={styles.contact__card_data}>dayoakinyemi72@gmail.com</span>
-                        <a href="mailto:dayoakinyemi72@gmail.com" className={styles.contact__button}>
+                        <a href="mailto:darhyor2050@gmail.com" className={styles.contact__button}>
                             Write me
                             <i className={`bx bx-right-arrow-alt ${styles.contact__button_icon}`}></i>
                         </a>

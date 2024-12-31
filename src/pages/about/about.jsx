@@ -21,8 +21,8 @@ const About = () => {
                         and building efficient software that enhances user experience.<br/>
                         I thrive in team settings, valuing collaboration and the exchange of ideas. My expertise
                         spans backend engineering with Java, Python, and JavaScript (using frameworks like
-                        Spring Boot, Django, and Flask), as well as frontend development with HTML, React, React Native,
-                        Flutter, and Node.js. I also have experience in styling with CSS and Tailwind, and deploying
+                        Spring Boot, Django, and Flask), as well as frontend development with HTML5, Reactjs, Nextjs and Typescript.
+                        I also have experience in styling with CSS and TailwindCSS, and deploying
                         projects using AWS and Docker for containerization.<br/>
                         I practice test-driven development and use GitHub for version control and CI/CD with GitHub
                         Actions. Always eager to explore new ideas in software development, I am ready to tackle new
