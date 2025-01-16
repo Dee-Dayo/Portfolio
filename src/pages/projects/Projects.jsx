@@ -72,11 +72,16 @@ const Projects = () => {
         },
         {
             title: "Live Fullstack Projects (Deployed)",
-            description: "Built scalable and efficient fullstack systems using Java Spring Boot for the backend and " +
+            description: "Built scalable and efficient fullstack systems using Java Spring Boot for the backend, Reactjs, " +
+                "Nextjs, Typescript, TailwindCSS for the frontend and " +
                 "databases like PostgreSQL or MySQL. These projects follow TDD (Test-Driven Development) principles, " +
                 "utilize GitHub Actions for CI/CD, and are deployed on platforms such as Render or AWS for the backend. ",
             icon: "uil-layers",
             projects: [
+                {
+                    projectName: "E-Commerce Website",
+                    githubLink: "https://e-commerce-eight-teal-90.vercel.app/"
+                },
                 {
                     projectName: "EaziRent",
                     githubLink: "https://eazi-rent-eight.vercel.app/"
